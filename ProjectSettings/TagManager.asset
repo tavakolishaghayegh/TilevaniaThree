@@ -50,6 +50,9 @@ TagManager:
   - name: Platforms
     uniqueID: 3308286695
     locked: 0
+  - name: climbing
+    uniqueID: 3619714963
+    locked: 0
   - name: player
     uniqueID: 2739464707
     locked: 0

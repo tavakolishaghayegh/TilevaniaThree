@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7193004729257851005}
   - component: {fileID: 8660553548572218799}
   - component: {fileID: 1925452797080099943}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bronzo (Player)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

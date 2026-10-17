@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7193004729257851005}
   - component: {fileID: 8660553548572218799}
   - component: {fileID: 1925452797080099943}
+  - component: {fileID: 5873608492759590026}
   m_Layer: 8
   m_Name: Bronzo (Player)
   m_TagString: Untagged
@@ -153,8 +154,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.021450758, y: -0.07722211}
-  m_Size: {x: 0.51092577, y: 0.82839537}
+  m_Offset: {x: -0.045760155, y: -0.07722211}
+  m_Size: {x: 0.58384514, y: 0.82839537}
   m_Direction: 0
 --- !u!50 &7193004729257851005
 Rigidbody2D:
@@ -228,3 +229,49 @@ MonoBehaviour:
   MoveSpeed: 10
   jumpSpeed: 20
   climbSpeed: 5
+--- !u!61 &5873608492759590026
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4097859952326303425}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.060337067, y: -0.44788662}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.38734818, y: 0.10422677}
+  m_EdgeRadius: 0

@@ -35,7 +35,8 @@ Transform:
   m_LocalPosition: {x: -7.8, y: 1.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 873565169892364474}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5446568463977027020
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1555502589
-  m_SortingLayer: 5
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -7894484093430313499, guid: 281a38db343b44fc3b804b0e8a254ef8, type: 3}
@@ -172,7 +173,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -226,9 +227,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09651f2cc0ba2424fbef31ad31cedcf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovment
-  MoveSpeed: 10
+  MoveSpeed: 7
   jumpSpeed: 20
   climbSpeed: 5
+  deathkick: {x: 10, y: 20}
+  Bullet: {fileID: 6869530597818278394, guid: d44b2f84f60a1413eba4fe97b656758f, type: 3}
+  Gun: {fileID: 873565169892364474}
 --- !u!61 &5873608492759590026
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -275,3 +279,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.38734818, y: 0.10422677}
   m_EdgeRadius: 0
+--- !u!1 &5837574239366749440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 873565169892364474}
+  m_Layer: 0
+  m_Name: Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &873565169892364474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5837574239366749440}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.161, y: -0.249, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4608951238924119539}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

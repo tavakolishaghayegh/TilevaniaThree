@@ -15539,10 +15539,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1925452797080099943, guid: 0090c36a2bdfe4decb7c796fb299a82e, type: 3}
-      propertyPath: MoveSpeed
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4097859952326303425, guid: 0090c36a2bdfe4decb7c796fb299a82e, type: 3}
       propertyPath: m_Name
       value: Bronzo (Player)
@@ -15586,10 +15582,6 @@ PrefabInstance:
     - target: {fileID: 4608951238924119539, guid: 0090c36a2bdfe4decb7c796fb299a82e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7193004729257851005, guid: 0090c36a2bdfe4decb7c796fb299a82e, type: 3}
-      propertyPath: m_GravityScale
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

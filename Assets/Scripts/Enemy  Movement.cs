@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
         void Start()
     {
         myRigidbody=GetComponent<Rigidbody2D>();
+         
         
     }
 
@@ -16,7 +17,11 @@ public class Enemy : MonoBehaviour
         myRigidbody.linearVelocity=new Vector2(MoveSpeed,0f);
         
     }
-    void OnTriggerExit2D(Collider2D collision) { MoveSpeed = -MoveSpeed; FlipEnemyFacing(); }
+    void OnTriggerExit2D(Collider2D collision) 
+    {
+         MoveSpeed = -MoveSpeed; 
+        FlipEnemyFacing(); 
+    }
 
     
 

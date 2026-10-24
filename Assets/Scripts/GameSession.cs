@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameSession : MonoBehaviour
 {
   [SerializeField] int PlayerLives=3;
+  [SerializeField] int Score=0;
   [SerializeField] TextMeshProUGUI LivesText;
   [SerializeField] TextMeshProUGUI ScoreText;
   void Awake()
@@ -21,9 +22,11 @@ public class GameSession : MonoBehaviour
       DontDestroyOnLoad(gameObject);
     }
   }
+  
   void Start()
     {
       LivesText.text=PlayerLives.ToString();
+      ScoreText.text=Score.ToString();
         
     }
   public void ProcessPlayerDeath()
@@ -36,6 +39,12 @@ public class GameSession : MonoBehaviour
     {
       ResetGameSession();
     }
+  }
+  public void AddToScore(int pointsToAdd)
+  {
+    Score +=pointsToAdd; 
+    ScoreText.text=Score.ToString();
+    
   }
 
    void TaleLife()
@@ -55,8 +64,5 @@ public class GameSession : MonoBehaviour
   
 
     
-    void Update()
-    {
-        
-    }
+   
 }

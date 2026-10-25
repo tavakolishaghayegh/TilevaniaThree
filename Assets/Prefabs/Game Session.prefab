@@ -138,7 +138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 104, y: -16}
+  m_AnchoredPosition: {x: 163, y: -10}
   m_SizeDelta: {x: 184.7692, y: 65.230804}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2569780074929522630
@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameSession
   PlayerLives: 3
+  Score: 0
   LivesText: {fileID: 678070801485928540}
   ScoreText: {fileID: 107715030198578141}
 --- !u!1 &5327598609016910713
@@ -323,7 +324,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -147, y: -22}
+  m_AnchoredPosition: {x: -209, y: -22}
   m_SizeDelta: {x: 184.76917, y: 65.230804}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1109621114287639208
